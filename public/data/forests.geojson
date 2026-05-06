@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Forêt sacrée de Glidji",
+        "region": "Maritime",
+        "history": "Lieu rituel des Guin lié aux traditions ancestrales.",
+        "species": "Fromager, oiseaux sacrés",
+        "recommendation": "Reboisement avec essences locales."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[1.15,6.2],[1.17,6.2],[1.17,6.25],[1.15,6.25],[1.15,6.2]]]
+      }
+    }
+  ]
+}

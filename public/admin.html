@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Admin Dashboard</title>
+  <style>
+    body { font-family: Arial; margin: 20px; }
+    input, textarea { display:block; margin:5px 0; width:300px; }
+    table { border-collapse: collapse; margin-top:20px; }
+    td, th { border:1px solid #ccc; padding:8px; }
+    button { margin:2px; }
+  </style>
+</head>
+<body>
+
+<h1>🌿 Admin Dashboard</h1>
+
+<h3>Ajouter / Modifier une forêt</h3>
+
+<input id="name" placeholder="Nom">
+<input id="region" placeholder="Région">
+<textarea id="history" placeholder="Histoire"></textarea>
+<textarea id="species" placeholder="Espèces"></textarea>
+<textarea id="recommendation" placeholder="Recommandation"></textarea>
+
+<button onclick="saveForest()">💾 Enregistrer</button>
+
+<hr>
+
+<h3>Liste des forêts</h3>
+
+<table id="forestTable">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nom</th>
+      <th>Région</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>

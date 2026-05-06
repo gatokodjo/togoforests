@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Forêts Sacrées du Togo</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+
+<body>
+
+<header>
+    Plateforme des Forêts Sacrées du Togo
+</header>
+
+<div id="controls">
+  <select id="forestSelect">
+    <option value="">-- Sélectionner une forêt --</option>
+  </select>
+</div>
+
+<div id="container">
+  <div id="map"></div>
+  <div id="info">
+    <h2>Informations</h2>
+    <p>Sélectionnez une forêt ou cliquez sur la carte</p>
+  </div>
+</div>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

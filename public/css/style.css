@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #1b5e20;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  font-size: 20px;
+}
+
+#controls {
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+#container {
+  display: flex;
+}
+
+#map {
+  height: 85vh;
+  width: 65%;
+}
+
+#info {
+  width: 35%;
+  padding: 15px;
+  background: #fafafa;
+  border-left: 1px solid #ddd;
+  overflow-y: auto;
+}
